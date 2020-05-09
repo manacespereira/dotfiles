@@ -22,8 +22,8 @@ brew cask install obs
 echo "Installing AWS CLI"
 brew install awscli
 
-echo "Installing ffmpeg"
-brew install ffmpeg
+echo "Installing insomnia"
+brew cask install insomnia
 
 echo "Making Zsh the default shell"
 chsh -s $(which zsh)
